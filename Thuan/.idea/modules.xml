@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Thuan.iml" filepath="$PROJECT_DIR$/Thuan.iml" />
+      <module fileurl="file://D:\DCT\Android\ListView\Thuan\Thuan.iml" filepath="D:\DCT\Android\ListView\Thuan\Thuan.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://D:\DCT\Android\ListView\Thuan\app\app.iml" filepath="D:\DCT\Android\ListView\Thuan\app\app.iml" />
     </modules>
   </component>
 </project>
