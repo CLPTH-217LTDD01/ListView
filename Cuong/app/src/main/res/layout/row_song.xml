@@ -37,7 +37,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
-                    android:layout_marginTop="0dp"
                     android:orientation="vertical">
 
                     <TextView
@@ -65,7 +64,8 @@
                             android:id="@+id/imageView"
                             android:layout_width="15dp"
                             android:layout_height="15dp"
-                            android:layout_marginLeft="5dp" />
+                            android:layout_marginLeft="5dp"
+                            android:src="@drawable/view_icon" />
 
                         <TextView
                             android:id="@+id/txtLike"
@@ -80,7 +80,8 @@
                             android:id="@+id/imageLike"
                             android:layout_width="15dp"
                             android:layout_height="15dp"
-                            android:layout_marginLeft="5dp" />
+                            android:layout_marginLeft="5dp"
+                            android:src="@drawable/like_icon" />
 
                         <TextView
                             android:id="@+id/txtDislike"
@@ -95,7 +96,8 @@
                             android:id="@+id/imageDislike"
                             android:layout_width="15dp"
                             android:layout_height="15dp"
-                            android:layout_marginLeft="5dp" />
+                            android:layout_marginLeft="5dp"
+                            android:src="@drawable/dislike_icon" />
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>

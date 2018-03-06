@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         alSong.add(song8);
         alSong.add(song9);
         alSong.add(song10);
-        CustomAdapter customAdapter = new CustomAdapter(this, R.layout.row_listview, alSong);
-        lvSong.setAdapter(customAdapter);
+        SongAdapter songAdapter = new SongAdapter(this, R.layout.row_song, alSong);
+        lvSong.setAdapter(songAdapter);
     }
 }
