@@ -3,10 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Linh.iml" filepath="$PROJECT_DIR$/Linh.iml" />
-<<<<<<< HEAD
-      <module fileurl="file://D:\DCT\Android\ListView\Linh\Linh2.iml" filepath="D:\DCT\Android\ListView\Linh\Linh2.iml" />
-=======
->>>>>>> 48fd1671f04a2f75bdf628c54f5f96e3c2b3b18b
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

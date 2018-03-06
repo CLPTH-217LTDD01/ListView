@@ -35,17 +35,4 @@ public class MainActivity extends AppCompatActivity {
         lvtraicay.setAdapter(fruitAdapter);
     }
 
-<<<<<<< HEAD
-    private void Anhxa() {
-        lvtraicay = (ListView) findViewById(R.id.lvFruit);
-        arraytraicay = new ArrayList<>();
-        arraytraicay.add(new Traicay("APPLE", R.drawable.apple));
-        arraytraicay.add(new Traicay("BANANA", R.drawable.banana));
-        arraytraicay.add(new Traicay("coconut", R.drawable.coconut));
-        arraytraicay.add(new Traicay("LEMON", R.drawable.lemon));
-        arraytraicay.add(new Traicay("KIWI", R.drawable.kiwi));
-    }
-
-=======
->>>>>>> 48fd1671f04a2f75bdf628c54f5f96e3c2b3b18b
 }
