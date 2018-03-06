@@ -10,6 +10,7 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.pc.listview.R;
 import com.example.pc.model.DanhBa;
@@ -38,10 +39,21 @@ public class DanhBaAdapter extends ArrayAdapter<DanhBa> {
         ImageButton btnSms=row.findViewById(R.id.btnSms);
         ImageButton btnLich=row.findViewById(R.id.btnLich);
         ImageButton btnNote=row.findViewById(R.id.btnNote);
-        DanhBa db=this.objects.get(position);
+        final DanhBa db=this.objects.get(position);
         txtTen.setText(db.getTen());
         txtPhone.setText(db.getPhone());
 
+        btnNote.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                xuLyXemChiTiet(db);
+            }
+        });
+
         return row;
+    }
+
+    private void xuLyXemChiTiet(DanhBa db) {
+        Toast.makeText(this.context,"Bạn chọn ghi chú cho: "+db.getTen(),Toast.LENGTH_LONG).show();
     }
 }

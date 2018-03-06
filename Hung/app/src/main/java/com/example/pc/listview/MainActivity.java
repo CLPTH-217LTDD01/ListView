@@ -30,10 +30,14 @@ public class MainActivity extends AppCompatActivity {
     private void addControls() {
         lvDanhBa=findViewById(R.id.lvDanhBa);
         dsDanhBa=new ArrayList<>();
-        dsDanhBa.add(new DanhBa(1,"Nguyễn Sỹ Hùng","096154689"));
-        dsDanhBa.add(new DanhBa(2,"Nguyễn Thanh Tuyền","0958457245"));
-        dsDanhBa.add(new DanhBa(3,"Nguyễn Quốc Cường","0961458752"));
-        dsDanhBa.add(new DanhBa(4,"Nguyễn Thị Thiên Thu","0961547856"));
+        dsDanhBa.add(new DanhBa(1,"NSH_No1","096154689"));
+        dsDanhBa.add(new DanhBa(2,"Lol.SiRaNo","0981220797"));
+        dsDanhBa.add(new DanhBa(3,"CalKaiL","0961458752"));
+        dsDanhBa.add(new DanhBa(4,"LinhT4","01698328529"));
+        dsDanhBa.add(new DanhBa(5,"TeoIS","0961547866"));
+        dsDanhBa.add(new DanhBa(6,"PhuocMĐ","0961547856"));
+        dsDanhBa.add(new DanhBa(7,"SinS2","0961547856"));
+        dsDanhBa.add(new DanhBa(8,"Nguyễn Thị Thiên Thu","0961547856"));
 
         danhBaAdapter=new DanhBaAdapter(MainActivity.this,R.layout.item,dsDanhBa);
         lvDanhBa.setAdapter(danhBaAdapter);
