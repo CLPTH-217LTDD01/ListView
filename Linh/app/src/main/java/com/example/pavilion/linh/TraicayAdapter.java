@@ -43,14 +43,14 @@ public class TraicayAdapter extends BaseAdapter {
 
     @Override
     public View getView(int i, View view, ViewGroup viewGroup) {
-        LayoutInflater layoutInflater= (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        view= layoutInflater.inflate(layout,null);
-        TextView txtten=(TextView) view.findViewById(R.id.textviewten);
-        ImageView imghinh=(ImageView) view.findViewById(R.id.imageviewhinh);
-        Traicay traicay=traicayList.get(i);
-        txtten.setText(traicay.getTen());
-        imghinh.setImageResource(traicay.getHinh());
+        LayoutInflater layoutInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        View single_row = layoutInflater.inflate(layout, null, true);
 
-        return view;
+        TextView txtten = (TextView) single_row.findViewById(R.id.textviewten);
+        ImageView imghinh = (ImageView) single_row.findViewById(R.id.imageviewhinh);
+        txtten.setText(traicayList.get(i).getTen());
+        imghinh.setImageResource(traicayList.get(i).getHinh());
+
+        return single_row;
     }
 }
