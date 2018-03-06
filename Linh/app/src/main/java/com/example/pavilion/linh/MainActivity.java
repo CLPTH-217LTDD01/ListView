@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void Anhxa() {
-        lvtraicay = (ListView) findViewById(R.id.listviewtraicay);
+        lvtraicay = (ListView) findViewById(R.id.lvFruit);
         arraytraicay = new ArrayList<>();
         arraytraicay.add(new Traicay("APPLE", R.drawable.apple));
         arraytraicay.add(new Traicay("BANANA", R.drawable.banana));
