@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="apple" />
+    <drawable name="banana" />
+    <drawable name="lemon" />
+    <drawable name="cherry" />
+    <drawable name="strawberrie" />
+    <drawable name="avocado" />
+</resources>
