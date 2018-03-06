@@ -1,4 +1,4 @@
-package com.example.pavilion.listview;
+package com.example.pavilion.linh;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.pavilion.listview", appContext.getPackageName());
+        assertEquals("com.example.pavilion.linh", appContext.getPackageName());
     }
 }
