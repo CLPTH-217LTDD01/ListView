@@ -11,25 +11,28 @@ public class MainActivity extends AppCompatActivity {
     ArrayList<Traicay> arraytraicay;
     TraicayAdapter fruitAdapter;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Anhxa();
+        lvtraicay = (ListView) findViewById(R.id.lvFruit);
+        arraytraicay = new ArrayList<>();
+
+        arraytraicay.add(new Traicay("Apple", R.drawable.apple));
+        arraytraicay.add(new Traicay("Coconut", R.drawable.coconut));
+        arraytraicay.add(new Traicay("Lemon", R.drawable.lemon));
+        arraytraicay.add(new Traicay("Banana", R.drawable.chuoi));
+        arraytraicay.add(new Traicay("Grape", R.drawable.nho));
+        arraytraicay.add(new Traicay("Tomato", R.drawable.tomato));
+        arraytraicay.add(new Traicay("Mangoes", R.drawable.xoai));
+        arraytraicay.add(new Traicay("Pomegranate", R.drawable.luu));
+        arraytraicay.add(new Traicay("Strawberry", R.drawable.dt));
+        arraytraicay.add(new Traicay("Mangossteen", R.drawable.mc));
+        arraytraicay.add(new Traicay("Watermelon", R.drawable.dh));
+
         fruitAdapter = new TraicayAdapter(this, R.layout.row_fruit, arraytraicay);
 
         lvtraicay.setAdapter(fruitAdapter);
-    }
-
-    private void Anhxa() {
-        lvtraicay = (ListView) findViewById(R.id.listviewtraicay);
-        arraytraicay = new ArrayList<>();
-        arraytraicay.add(new Traicay("APPLE", R.drawable.apple));
-        arraytraicay.add(new Traicay("BANANA", R.drawable.banana));
-        arraytraicay.add(new Traicay("coconut", R.drawable.coconut));
-        arraytraicay.add(new Traicay("LEMON", R.drawable.lemon));
-        arraytraicay.add(new Traicay("KIWI", R.drawable.kiwi));
     }
 
 }
