@@ -7,9 +7,6 @@ public class Song {
     private long view;
     private long like;
     private long dislike;
-    private final int imageView = R.drawable.view_icon;
-    private final int imageLike = R.drawable.like_icon;
-    private final int imageDislike = R.drawable.dislike_icon;
 
     public Song(int imageSongID, String name, String singer, long view, long like, long dislike) {
         this.imageSongID = imageSongID;
@@ -67,16 +64,5 @@ public class Song {
     public void setDislike(long dislike) {
         this.dislike = dislike;
     }
-
-    public int getImageView() {
-        return imageView;
-    }
-
-    public int getImageLike() {
-        return imageLike;
-    }
-
-    public int getImageDislike() {
-        return imageDislike;
-    }
+    
 }
